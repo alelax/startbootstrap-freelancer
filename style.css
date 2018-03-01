@@ -1,3 +1,33 @@
 * {
   text-align: center;
+  color: #FFF;
+}
+
+nav {
+  height: 15vh;
+  background-color: #2C3E50;
+}
+
+nav div{
+  position: relative;
+  top: calc(100% / 2);
+  transform: translateY(-50%);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#home-nav {
+  text-align: left;
+  font-size: 33px;
+}
+
+.profile-section {
+  background-color: #18BC9C;
+  height: 85vh;
+  padding: 100px 0 0;
+}
+
+#big-title {
+  font-size: 75px;
+  font-weight: bold;
 }
