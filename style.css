@@ -5,7 +5,6 @@
 
 nav {
   height: 15vh;
-  background-color: #2C3E50;
 }
 
 nav div{
@@ -16,15 +15,15 @@ nav div{
   font-weight: bold;
 }
 
+p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 28px;
+}
+
 #home-nav {
   text-align: left;
   font-size: 33px;
-}
-
-.profile-section {
-  background-color: #18BC9C;
-  height: 85vh;
-  padding: 100px 0 0;
 }
 
 #big-title {
@@ -32,14 +31,50 @@ nav div{
   font-weight: bold;
 }
 
-.section-title {
-  margin: 80px 0 30px;
-  font-size: 50px;
-  font-weight: bold;
-  color: #2C3E50;
-}
-
 .gallery {
   width: 100%;
   margin: 10px 0;
+}
+
+#download-btn {
+  margin-top: 30px;
+  border: 2px solid #FFF;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 250px;
+  height: 70px;
+  font-size: 18px;
+
+}
+
+/* ********** general ********* */
+
+.bg-dark {
+  background-color: #2C3E50;
+}
+
+.bg-light {
+  background-color: #18BC9C;
+}
+
+.section-title {
+  padding: 25px 0 25px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.dark-txt {
+  color: #2C3E50;
+}
+
+.section-feature {
+  min-height: 80vh; 
+  padding: 70px 0 70px;
+}
+
+[class^="col-"].padding-zero {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 }
